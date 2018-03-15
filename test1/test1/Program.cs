@@ -35,6 +35,15 @@ namespace test1
                 Console.WriteLine("您的體重過輕了");
             }
 
+            if(17 <= total && total <= 31)
+            {
+                Console.WriteLine("您的體重在範圍之內，您需要去當兵");
+            }
+            else
+            {
+                Console.WriteLine("您的體住屬於過輕或過重，不適合當兵");
+            }
+
             Console.ReadLine();
         }
     }
