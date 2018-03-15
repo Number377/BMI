@@ -41,7 +41,7 @@ namespace test1
             }
             else
             {
-                Console.WriteLine("您的體住屬於過輕或過重，不適合當兵");
+                Console.WriteLine("您的體重屬於過輕或過重，不適合當兵");
             }
 
             Console.ReadLine();
